@@ -115,3 +115,8 @@ main {
     margin-top: 90px;
 }
 }
+/*media query for laptops and large screens */
+@media screen and (min-width: 992px){
+    #menu a:hover {
+border-bottom: 1px solid #3a3a3a;}
+}
