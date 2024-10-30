@@ -122,14 +122,10 @@ main {
         {
         margin: 20px auto;
         width: 90%;
-        display: flex;
-        justify-content: center;
     }
 
     #reasons h2 {
         font-size: 280%;
-        display: flex;
-        justify-content: center;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -146,11 +142,11 @@ main {
     padding: 0 20px;
 }
 
-hr {
-border: 1px;
-color: #3a3a3a;
-margin: 5px 0;
-    }
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+
+}
 
 
 /*footer*/
