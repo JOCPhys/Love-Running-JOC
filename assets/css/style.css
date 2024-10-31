@@ -215,6 +215,13 @@ border: 2px solid white;
     color: #3a3a3a;
 
 }
+/* Media query: large or landscape phones (576px and up */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* media query: tablets 768px and larger */
 @media screen and (min-width: 768px) {
@@ -266,6 +273,9 @@ border: 2px solid white;
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+    #photos {column-count: 3;}
 }
 
 
@@ -280,6 +290,8 @@ border: 2px solid white;
         width: 300px;
         right: 50px;
     }
+
+    #photos {column-count: 4;}
 }
 /* media query: desktop */
 @media screen and (min-width: 1200px) {
